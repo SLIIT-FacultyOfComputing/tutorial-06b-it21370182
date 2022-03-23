@@ -3,16 +3,16 @@
 using namespace std;
 
 // Implement setters and getters
-void setLength(int l){
-  int length=l;
+void Box :: setLength(int l){
+ length=l;
 }
-void setWidth(int w){
-  int width=w;
+void Box :: setWidth(int w){
+  width=w;
 }
-void setHeight(int h){
- int height=h;
+void Box :: setHeight(int h){
+ height=h;
 }
 // Implemenet the calcVolume() unction
 int Box::calcVolume() {
-  return w*l*h;
+  return width*length*height;
 }
